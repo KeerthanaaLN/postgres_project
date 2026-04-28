@@ -25,6 +25,7 @@ Learn more at <https://cap.cloud.sap>.
 
 ## commands
 cf enable-ssh <app_name>
+
 cf restart <app_name>
 
 ## terminal 1
