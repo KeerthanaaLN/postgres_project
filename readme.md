@@ -20,3 +20,15 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at <https://cap.cloud.sap>.
+
+
+
+## commands
+cf enable-ssh <app_name>
+cf restart <app_name>
+
+## terminal 1
+cf ssh <app_name> -L 63306:<host>:<port>
+
+## terimal 2
+psql -d <dbname> -U <user_name> -p 63306 -h localhost
